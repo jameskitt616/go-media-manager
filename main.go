@@ -9,10 +9,6 @@ var (
 	conf = config.GetConfig()
 )
 
-func GetConfig() *config.Config {
-	return conf
-}
-
 func main() {
 	fmt.Println(conf.TMDB.ApiKey)
 }
