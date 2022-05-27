@@ -6,6 +6,9 @@ import (
 )
 
 type Config struct {
+	ENV struct {
+		WatchPath string `json:"watch_path"`
+	} `json:"env"`
 	TMDB struct {
 		ApiKey string `json:"api_key"`
 	} `json:"tmdb"`

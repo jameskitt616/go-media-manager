@@ -1,5 +1,8 @@
 {
+  "env":{
+    "watch_path": ""
+  },
   "tmdb": {
-    "api_key": "insert here"
+    "api_key": ""
   }
 }

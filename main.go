@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"go-media-manager/config"
+	"go-media-manager/watcher"
 )
 
 var (
@@ -10,5 +10,6 @@ var (
 )
 
 func main() {
-	fmt.Println(conf.TMDB.ApiKey)
+	//watcher.NewWatcher(conf.ENV.WatchPath)
+	watcher.GetFolderEntriesByPath(conf.ENV.WatchPath)
 }
