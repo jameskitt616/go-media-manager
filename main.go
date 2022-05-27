@@ -11,5 +11,5 @@ var (
 
 func main() {
 	//watcher.NewWatcher(conf.ENV.WatchPath)
-	watcher.GetFolderEntriesByPath(conf.ENV.WatchPath)
+	watcher.GetFolderItemsByPath(conf.ENV.WatchPath)
 }

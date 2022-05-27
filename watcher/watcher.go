@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 )
 
-func GetFolderEntriesByPath(directory string) {
+func GetFolderItemsByPath(directory string) {
 	items, err := ioutil.ReadDir(directory)
 	if err != nil {
 		return
